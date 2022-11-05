@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: neogedom-config-server
+  cloud:
+   config:
+    server:
+     git:
+      uri: git@github.com:neogedom/sistemas-distribuidos-tads
+  

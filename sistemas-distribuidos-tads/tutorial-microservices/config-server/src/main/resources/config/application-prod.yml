@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: neogedom-config-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+
+greeting-service: 
+  greeting: "Ciao"
+  default-value: "Mondo"
+
